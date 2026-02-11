@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 716,
+  "total": 717,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -4421,6 +4421,32 @@
         "skills"
       ],
       "path": "skills/custom/example-custom-skill/SKILL.md"
+    },
+    {
+      "id": "custom/stack-estandar-sitoct",
+      "name": "stack-estandar-sitoct",
+      "description": "Stack tecnológico estándar para todos los proyectos. Define las tecnologías, plataformas de deployment y arquitectura recomendada basada en las mejores prácticas de 2026. Usar siempre que se inicie un nuevo proyecto o se necesite asesoramiento sobre tecnologías.",
+      "category": "infrastructure",
+      "tags": [
+        "custom/stack",
+        "estandar",
+        "sitoct"
+      ],
+      "triggers": [
+        "custom/stack",
+        "estandar",
+        "sitoct",
+        "stack",
+        "tecnol",
+        "gico",
+        "est",
+        "ndar",
+        "para",
+        "todos",
+        "los",
+        "proyectos"
+      ],
+      "path": "skills/custom/stack-estandar-sitoct/SKILL.md"
     },
     {
       "id": "customer-support",

@@ -5409,6 +5409,15 @@
     "source": "unknown"
   },
   {
+    "id": "stack-estandar-sitoct",
+    "path": "skills/custom/stack-estandar-sitoct",
+    "category": "custom",
+    "name": "stack-estandar-sitoct",
+    "description": "Stack tecnol\u00f3gico est\u00e1ndar para todos los proyectos. Define las tecnolog\u00edas, plataformas de deployment y arquitectura recomendada basada en las mejores pr\u00e1cticas de 2026. Usar siempre que se inicie un nuevo proyecto o se necesite asesoramiento sobre tecnolog\u00edas.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "startup-analyst",
     "path": "skills/startup-analyst",
     "category": "uncategorized",

@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 716
+Total skills: 717
 
 ## architecture (63)
 
@@ -445,7 +445,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (83)
+## infrastructure (84)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -465,6 +465,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `claude-d3js-skill` | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisati... | claude, d3js, skill | claude, d3js, skill, d3, viz, creating, interactive, data, visualisations, js, should, used |
 | `code-review-ai-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | code, ai | code, ai, review, powered, combining, automated, static, analysis, intelligent, recognition, devops, leverage |
 | `cost-optimization` | Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing... | cost, optimization | cost, optimization, optimize, cloud, costs, through, resource, rightsizing, tagging, reserved, instances, spending |
+| `custom/stack-estandar-sitoct` | Stack tecnológico estándar para todos los proyectos. Define las tecnologías, plataformas de deployment y arquitectura recomendada basada en las mejores práct... | custom/stack, estandar, sitoct | custom/stack, estandar, sitoct, stack, tecnol, gico, est, ndar, para, todos, los, proyectos |
 | `data-engineer` | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data pl... | data | data, engineer, scalable, pipelines, warehouses, real, time, streaming, architectures, implements, apache, spark |
 | `data-engineering-data-pipeline` | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing. | data, engineering, pipeline | data, engineering, pipeline, architecture, specializing, scalable, reliable, cost, effective, pipelines, batch, streaming |
 | `database-cloud-optimization-cost-optimize` | You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spendi... | database, cloud, optimization, cost, optimize | database, cloud, optimization, cost, optimize, specializing, reducing, infrastructure, expenses, while, maintaining, performance |
