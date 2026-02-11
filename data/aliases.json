@@ -36,6 +36,7 @@
     "comprehensive-review-enhance": "comprehensive-review-pr-enhance",
     "context-management-restore": "context-management-context-restore",
     "context-management-save": "context-management-context-save",
+    "example-custom-skill": "custom/example-custom-skill",
     "data-engineering-feature": "data-engineering-data-driven-feature",
     "data-engineering-pipeline": "data-engineering-data-pipeline",
     "database-cloud-optimize": "database-cloud-optimization-cost-optimize",

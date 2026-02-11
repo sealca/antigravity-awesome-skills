@@ -2259,6 +2259,15 @@
     "source": "unknown"
   },
   {
+    "id": "example-custom-skill",
+    "path": "skills/custom/example-custom-skill",
+    "category": "custom",
+    "name": "example-custom-skill",
+    "description": "Skill de ejemplo para demostrar c\u00f3mo crear skills personales en la carpeta custom/",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "executing-plans",
     "path": "skills/executing-plans",
     "category": "uncategorized",

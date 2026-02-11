@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 715
+Total skills: 716
 
 ## architecture (63)
 
@@ -308,7 +308,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 
-## general (131)
+## general (132)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -357,6 +357,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `context-optimization` | Apply compaction, masking, and caching strategies | optimization | optimization, context, apply, compaction, masking, caching |
 | `create-pr` | Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code revi... | create, pr | create, pr, pull, requests, following, sentry, conventions, opening, prs, writing, descriptions, preparing |
 | `culture-index` | Index and search culture documentation | culture, index | culture, index, search, documentation |
+| `custom/example-custom-skill` | Skill de ejemplo para demostrar cómo crear skills personales en la carpeta custom/ | example, custom, demo, tutorial | example, custom, demo, tutorial, skill, de, ejemplo, para, demostrar, mo, crear, skills |
 | `daily-news-report` | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. | daily, news, report | daily, news, report, scrapes, content, preset, url, list, filters, high, quality, technical |
 | `debugging-strategies` | Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use ... | debugging, strategies | debugging, strategies, systematic, techniques, profiling, root, cause, analysis, efficiently, track, down, bugs |
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |

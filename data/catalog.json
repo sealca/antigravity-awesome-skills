@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 715,
+  "total": 716,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -4394,6 +4394,33 @@
         "documentation"
       ],
       "path": "skills/culture-index/SKILL.md"
+    },
+    {
+      "id": "custom/example-custom-skill",
+      "name": "example-custom-skill",
+      "description": "Skill de ejemplo para demostrar cómo crear skills personales en la carpeta custom/",
+      "category": "general",
+      "tags": [
+        "example",
+        "custom",
+        "demo",
+        "tutorial"
+      ],
+      "triggers": [
+        "example",
+        "custom",
+        "demo",
+        "tutorial",
+        "skill",
+        "de",
+        "ejemplo",
+        "para",
+        "demostrar",
+        "mo",
+        "crear",
+        "skills"
+      ],
+      "path": "skills/custom/example-custom-skill/SKILL.md"
     },
     {
       "id": "customer-support",
