@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 856
+Total skills: 858
 
 ## architecture (64)
 
@@ -450,7 +450,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (135)
+## general (136)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -499,6 +499,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `context-optimization` | Apply compaction, masking, and caching strategies | optimization | optimization, context, apply, compaction, masking, caching |
 | `create-pr` | Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code revi... | create, pr | create, pr, pull, requests, following, sentry, conventions, opening, prs, writing, descriptions, preparing |
 | `culture-index` | Index and search culture documentation | culture, index | culture, index, search, documentation |
+| `custom/example-custom-skill` | Skill de ejemplo para demostrar cómo crear skills personales en la carpeta custom/ | example, custom, demo, tutorial | example, custom, demo, tutorial, skill, de, ejemplo, para, demostrar, mo, crear, skills |
 | `daily-news-report` | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. | daily, news, report | daily, news, report, scrapes, content, preset, url, list, filters, high, quality, technical |
 | `debugging-strategies` | Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use ... | debugging, strategies | debugging, strategies, systematic, techniques, profiling, root, cause, analysis, efficiently, track, down, bugs |
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |
@@ -590,7 +591,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (102)
+## infrastructure (103)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -636,6 +637,7 @@ Triggers: "azure-storage-file-share", "Share... | azure, storage, file, share, p
 | `claude-d3js-skill` | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisati... | claude, d3js, skill | claude, d3js, skill, d3, viz, creating, interactive, data, visualisations, js, should, used |
 | `code-review-ai-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | code, ai | code, ai, review, powered, combining, automated, static, analysis, intelligent, recognition, devops, leverage |
 | `cost-optimization` | Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing... | cost, optimization | cost, optimization, optimize, cloud, costs, through, resource, rightsizing, tagging, reserved, instances, spending |
+| `custom/stack-estandar-sitoct` | Stack tecnológico estándar para todos los proyectos. Define las tecnologías, plataformas de deployment y arquitectura recomendada basada en las mejores práct... | custom/stack, estandar, sitoct | custom/stack, estandar, sitoct, stack, tecnol, gico, est, ndar, para, todos, los, proyectos |
 | `data-engineer` | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data pl... | data | data, engineer, scalable, pipelines, warehouses, real, time, streaming, architectures, implements, apache, spark |
 | `data-engineering-data-pipeline` | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing. | data, engineering, pipeline | data, engineering, pipeline, architecture, specializing, scalable, reliable, cost, effective, pipelines, batch, streaming |
 | `database-cloud-optimization-cost-optimize` | You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spendi... | database, cloud, optimization, cost, optimize | database, cloud, optimization, cost, optimize, specializing, reducing, infrastructure, expenses, while, maintaining, performance |
