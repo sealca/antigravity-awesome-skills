@@ -43,19 +43,21 @@ jobs:
           if ! git merge upstream/main --no-edit; then
             echo "⚠️ Conflict detected. Attempting automatic resolution..."
             
-            # Aceptar cambios de upstream para archivos conflictivos (README, CATALOG, star-history, index, etc)
-            # Esto elimina cambios locales en archivos compartidos, pero MANTIENE skills/custom intacto
-            # porque upstream no tiene skills/custom y por tanto no genera conflicto ahí.
+            # Aceptar cambios de upstream para archivos conflictivos
             git checkout --theirs .
-            git add .
             
-            # Regenerar índices para re-incluir custom skills en skills_index.json y README
+            # IMPORTANTE: Asegurar que workflows conflictivos NO resuciten
+            # Si upstream los modificó, --theirs los trajo de vuelta. Los borramos:
+            rm .github/workflows/star-history.yml 2>/dev/null || true
+            rm .github/workflows/publish-npm.yml 2>/dev/null || true
+
+            # Regenerar índices para re-incluir custom skills
             echo "🔄 Regenerating indexes to include custom skills..."
             python3 scripts/generate_index.py
             python3 scripts/update_readme.py
             
-            # Añadir cambios generados
-            git add skills_index.json README.md
+            # Añadir todos los cambios (incluyendo borrados)
+            git add .
             
             # Commitear resolución
             git commit -m "sync: resolve conflicts and regenerate index [skip ci]"
