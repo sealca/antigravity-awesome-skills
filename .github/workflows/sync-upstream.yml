@@ -17,6 +17,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
       
+      # Setup Python para regenerar índices si es necesario
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          
+      - name: Install dependencies
+        run: pip install pyyaml
+
       - name: Sync upstream changes
         run: |
           git config user.name "github-actions[bot]"
@@ -28,12 +37,29 @@ jobs:
           # Fetch upstream
           git fetch upstream
           
-          # Merge upstream/main en main
+          # Intentar merge de upstream/main en main
           git checkout main
-          git merge upstream/main --no-edit || {
-            echo "Merge conflict detected. Please resolve manually."
-            exit 1
-          }
+          
+          if ! git merge upstream/main --no-edit; then
+            echo "⚠️ Conflict detected. Attempting automatic resolution..."
+            
+            # Aceptar cambios de upstream para archivos conflictivos (README, CATALOG, star-history, index, etc)
+            # Esto elimina cambios locales en archivos compartidos, pero MANTIENE skills/custom intacto
+            # porque upstream no tiene skills/custom y por tanto no genera conflicto ahí.
+            git checkout --theirs .
+            git add .
+            
+            # Regenerar índices para re-incluir custom skills en skills_index.json y README
+            echo "🔄 Regenerating indexes to include custom skills..."
+            python3 scripts/generate_index.py
+            python3 scripts/update_readme.py
+            
+            # Añadir cambios generados
+            git add skills_index.json README.md
+            
+            # Commitear resolución
+            git commit -m "sync: resolve conflicts and regenerate index [skip ci]"
+          fi
           
           # Push a origin
           git push origin main
