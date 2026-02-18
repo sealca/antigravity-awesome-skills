@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 858,
+  "total": 864,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -7558,6 +7558,38 @@
       "path": "skills/crewai/SKILL.md"
     },
     {
+      "id": "crypto-bd-agent",
+      "name": "crypto-bd-agent",
+      "description": "Autonomous crypto business development patterns — multi-chain token discovery, 100-point scoring with wallet forensics, x402 micropayments, ERC-8004 on-chain identity, LLM cascade routing, and pipeline automation for CEX/DEX listing acquisition. Use when building AI agents for crypto BD, token evaluation, exchange listing outreach, or autonomous commerce with payment protocols.",
+      "category": "security",
+      "tags": [
+        "crypto",
+        "business-development",
+        "token-scanning",
+        "x402",
+        "erc-8004",
+        "autonomous-agent",
+        "solana",
+        "ethereum",
+        "wallet-forensics"
+      ],
+      "triggers": [
+        "crypto",
+        "business-development",
+        "token-scanning",
+        "x402",
+        "erc-8004",
+        "autonomous-agent",
+        "solana",
+        "ethereum",
+        "wallet-forensics",
+        "bd",
+        "agent",
+        "autonomous"
+      ],
+      "path": "skills/crypto-bd-agent/SKILL.md"
+    },
+    {
       "id": "csharp-pro",
       "name": "csharp-pro",
       "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions.",
@@ -7597,59 +7629,6 @@
         "documentation"
       ],
       "path": "skills/culture-index/SKILL.md"
-    },
-    {
-      "id": "custom/example-custom-skill",
-      "name": "example-custom-skill",
-      "description": "Skill de ejemplo para demostrar cómo crear skills personales en la carpeta custom/",
-      "category": "general",
-      "tags": [
-        "example",
-        "custom",
-        "demo",
-        "tutorial"
-      ],
-      "triggers": [
-        "example",
-        "custom",
-        "demo",
-        "tutorial",
-        "skill",
-        "de",
-        "ejemplo",
-        "para",
-        "demostrar",
-        "mo",
-        "crear",
-        "skills"
-      ],
-      "path": "skills/custom/example-custom-skill/SKILL.md"
-    },
-    {
-      "id": "custom/stack-estandar-sitoct",
-      "name": "stack-estandar-sitoct",
-      "description": "Stack tecnológico estándar para todos los proyectos. Define las tecnologías, plataformas de deployment y arquitectura recomendada basada en las mejores prácticas de 2026. Usar siempre que se inicie un nuevo proyecto o se necesite asesoramiento sobre tecnologías.",
-      "category": "infrastructure",
-      "tags": [
-        "custom/stack",
-        "estandar",
-        "sitoct"
-      ],
-      "triggers": [
-        "custom/stack",
-        "estandar",
-        "sitoct",
-        "stack",
-        "tecnol",
-        "gico",
-        "est",
-        "ndar",
-        "para",
-        "todos",
-        "los",
-        "proyectos"
-      ],
-      "path": "skills/custom/stack-estandar-sitoct/SKILL.md"
     },
     {
       "id": "customer-support",
@@ -8087,6 +8066,81 @@
         "logs"
       ],
       "path": "skills/datadog-automation/SKILL.md"
+    },
+    {
+      "id": "dbos-golang",
+      "name": "dbos-golang",
+      "description": "DBOS Go SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Go code with DBOS, creating workflows and steps, using queues, using the DBOS Client from external applications, or building Go applications that need to be resilient to failures.",
+      "category": "development",
+      "tags": [
+        "dbos",
+        "golang"
+      ],
+      "triggers": [
+        "dbos",
+        "golang",
+        "go",
+        "sdk",
+        "building",
+        "reliable",
+        "fault",
+        "tolerant",
+        "applications",
+        "durable",
+        "skill",
+        "writing"
+      ],
+      "path": "skills/dbos-golang/SKILL.md"
+    },
+    {
+      "id": "dbos-python",
+      "name": "dbos-python",
+      "description": "DBOS Python SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Python code with DBOS, creating workflows and steps, using queues, using DBOSClient from external applications, or building applications that need to be resilient to failures.",
+      "category": "development",
+      "tags": [
+        "dbos",
+        "python"
+      ],
+      "triggers": [
+        "dbos",
+        "python",
+        "sdk",
+        "building",
+        "reliable",
+        "fault",
+        "tolerant",
+        "applications",
+        "durable",
+        "skill",
+        "writing",
+        "code"
+      ],
+      "path": "skills/dbos-python/SKILL.md"
+    },
+    {
+      "id": "dbos-typescript",
+      "name": "dbos-typescript",
+      "description": "DBOS TypeScript SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing TypeScript code with DBOS, creating workflows and steps, using queues, using DBOSClient from external applications, or building applications that need to be resilient to failures.",
+      "category": "development",
+      "tags": [
+        "dbos",
+        "typescript"
+      ],
+      "triggers": [
+        "dbos",
+        "typescript",
+        "sdk",
+        "building",
+        "reliable",
+        "fault",
+        "tolerant",
+        "applications",
+        "durable",
+        "skill",
+        "writing",
+        "code"
+      ],
+      "path": "skills/dbos-typescript/SKILL.md"
     },
     {
       "id": "dbt-transformation-patterns",
@@ -11095,6 +11149,32 @@
       "path": "skills/go-playwright/SKILL.md"
     },
     {
+      "id": "go-rod-master",
+      "name": "go-rod-master",
+      "description": "Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.",
+      "category": "development",
+      "tags": [
+        "go",
+        "rod",
+        "master"
+      ],
+      "triggers": [
+        "go",
+        "rod",
+        "master",
+        "browser",
+        "automation",
+        "web",
+        "scraping",
+        "chrome",
+        "devtools",
+        "protocol",
+        "including",
+        "stealth"
+      ],
+      "path": "skills/go-rod-master/SKILL.md"
+    },
+    {
       "id": "godot-gdscript-patterns",
       "name": "godot-gdscript-patterns",
       "description": "Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.",
@@ -12433,6 +12513,56 @@
         "construction"
       ],
       "path": "skills/langgraph/SKILL.md"
+    },
+    {
+      "id": "laravel-expert",
+      "name": "laravel-expert",
+      "description": "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).",
+      "category": "security",
+      "tags": [
+        "laravel"
+      ],
+      "triggers": [
+        "laravel",
+        "senior",
+        "engineer",
+        "role",
+        "grade",
+        "maintainable",
+        "idiomatic",
+        "solutions",
+        "clean",
+        "architecture",
+        "security",
+        "performance"
+      ],
+      "path": "skills/laravel-expert/SKILL.md"
+    },
+    {
+      "id": "laravel-security-audit",
+      "name": "laravel-security-audit",
+      "description": "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.",
+      "category": "security",
+      "tags": [
+        "laravel",
+        "security",
+        "audit"
+      ],
+      "triggers": [
+        "laravel",
+        "security",
+        "audit",
+        "auditor",
+        "applications",
+        "analyzes",
+        "code",
+        "vulnerabilities",
+        "misconfigurations",
+        "insecure",
+        "owasp",
+        "standards"
+      ],
+      "path": "skills/laravel-security-audit/SKILL.md"
     },
     {
       "id": "last30days",
@@ -16083,6 +16213,31 @@
         "should"
       ],
       "path": "skills/react-best-practices/SKILL.md"
+    },
+    {
+      "id": "react-flow-architect",
+      "name": "react-flow-architect",
+      "description": "Expert ReactFlow architect for building interactive graph applications with hierarchical node-edge systems, performance optimization, and auto-layout integration. Use when Claude needs to create or optimize ReactFlow applications for: (1) Interactive process graphs with expand/collapse navigation, (2) Hierarchical tree structures with drag & drop, (3) Performance-optimized large datasets with incremental rendering, (4) Auto-layout integration with Dagre, (5) Complex state management for nodes and edges, or any advanced ReactFlow visualization requirements.",
+      "category": "development",
+      "tags": [
+        "react",
+        "flow"
+      ],
+      "triggers": [
+        "react",
+        "flow",
+        "architect",
+        "reactflow",
+        "building",
+        "interactive",
+        "graph",
+        "applications",
+        "hierarchical",
+        "node",
+        "edge",
+        "performance"
+      ],
+      "path": "skills/react-flow-architect/SKILL.md"
     },
     {
       "id": "react-flow-node-ts",

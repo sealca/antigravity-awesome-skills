@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 858
+Total skills: 864
 
 ## architecture (64)
 
@@ -300,7 +300,7 @@ Use when creating container-based agents that run custom code in Azure ... | hos
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (127)
+## development (132)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -374,6 +374,9 @@ Triggers: "queue storage", "QueueServic... | azure, storage, queue, py | azure, 
 | `context7-auto-research` | Automatically fetch latest library/framework documentation for Claude Code via Context7 API | context7, auto, research | context7, auto, research, automatically, fetch, latest, library, framework, documentation, claude, code, via |
 | `copilot-sdk` | Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Pytho... | copilot, sdk | copilot, sdk, applications, powered, github, creating, programmatic, integrations, node, js, typescript, python |
 | `csharp-pro` | Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and... | csharp | csharp, pro, write, code, features, like, records, matching, async, await, optimizes, net |
+| `dbos-golang` | DBOS Go SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Go code with DBOS, creating workflows and ... | dbos, golang | dbos, golang, go, sdk, building, reliable, fault, tolerant, applications, durable, skill, writing |
+| `dbos-python` | DBOS Python SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Python code with DBOS, creating workfl... | dbos, python | dbos, python, sdk, building, reliable, fault, tolerant, applications, durable, skill, writing, code |
+| `dbos-typescript` | DBOS TypeScript SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing TypeScript code with DBOS, creatin... | dbos, typescript | dbos, typescript, sdk, building, reliable, fault, tolerant, applications, durable, skill, writing, code |
 | `discord-bot-architect` | Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactiv... | discord, bot | discord, bot, architect, specialized, skill, building, bots, covers, js, javascript, pycord, python |
 | `dotnet-architect` | Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. Masters async/await, dependenc... | dotnet | dotnet, architect, net, backend, specializing, asp, core, entity, framework, dapper, enterprise, application |
 | `dotnet-backend-patterns` | Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Ent... | dotnet, backend | dotnet, backend, net, development, building, robust, apis, mcp, servers, enterprise, applications, covers |
@@ -392,6 +395,7 @@ Triggers: "queue storage", "QueueServic... | azure, storage, queue, py | azure, 
 | `gemini-api-dev` | Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function... | gemini, api, dev | gemini, api, dev, skill, building, applications, models, working, multimodal, content, text, images |
 | `go-concurrency-patterns` | Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or de... | go, concurrency | go, concurrency, goroutines, channels, sync, primitives, context, building, concurrent, applications, implementing, worker |
 | `go-playwright` | Expert capability for robust, stealthy, and efficient browser automation using Playwright Go. | go, playwright | go, playwright, capability, robust, stealthy, efficient, browser, automation |
+| `go-rod-master` | Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. | go, rod, master | go, rod, master, browser, automation, web, scraping, chrome, devtools, protocol, including, stealth |
 | `golang-pro` | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. Expert in the latest Go ecosystem i... | golang | golang, pro, go, 21, concurrency, performance, optimization, microservices, latest, ecosystem, including, generics |
 | `hubspot-integration` | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers... | hubspot, integration | hubspot, integration, crm, including, oauth, authentication, objects, associations, batch, operations, webhooks, custom |
 | `javascript-mastery` | Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced pa... | javascript, mastery | javascript, mastery, reference, covering, 33, essential, concepts, every, developer, should, know, fundamentals |
@@ -419,6 +423,7 @@ Triggers: "queue storage", "QueueServic... | azure, storage, queue, py | azure, 
 | `python-performance-optimization` | Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottleneck... | python, performance, optimization | python, performance, optimization, profile, optimize, code, cprofile, memory, profilers, debugging, slow, optimizing |
 | `python-pro` | Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem ... | python | python, pro, 12, features, async, programming, performance, optimization, latest, ecosystem, including, uv |
 | `python-testing-patterns` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites... | python | python, testing, pytest, fixtures, mocking, test, driven, development, writing, tests, setting, up |
+| `react-flow-architect` | Expert ReactFlow architect for building interactive graph applications with hierarchical node-edge systems, performance optimization, and auto-layout integra... | react, flow | react, flow, architect, reactflow, building, interactive, graph, applications, hierarchical, node, edge, performance |
 | `react-flow-node-ts` | Create React Flow node components with TypeScript types, handles, and Zustand integration. Use when building custom nodes for React Flow canvas, creating vis... | react, flow, node, ts | react, flow, node, ts, components, typescript, types, zustand, integration, building, custom, nodes |
 | `react-modernization` | Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, m... | react, modernization | react, modernization, upgrade, applications, latest, versions, migrate, class, components, hooks, adopt, concurrent |
 | `react-native-architecture` | Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, impleme... | react, native, architecture | react, native, architecture, apps, expo, navigation, modules, offline, sync, cross, platform, developing |
@@ -450,7 +455,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (136)
+## general (135)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -499,7 +504,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `context-optimization` | Apply compaction, masking, and caching strategies | optimization | optimization, context, apply, compaction, masking, caching |
 | `create-pr` | Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code revi... | create, pr | create, pr, pull, requests, following, sentry, conventions, opening, prs, writing, descriptions, preparing |
 | `culture-index` | Index and search culture documentation | culture, index | culture, index, search, documentation |
-| `custom/example-custom-skill` | Skill de ejemplo para demostrar cómo crear skills personales en la carpeta custom/ | example, custom, demo, tutorial | example, custom, demo, tutorial, skill, de, ejemplo, para, demostrar, mo, crear, skills |
 | `daily-news-report` | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. | daily, news, report | daily, news, report, scrapes, content, preset, url, list, filters, high, quality, technical |
 | `debugging-strategies` | Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use ... | debugging, strategies | debugging, strategies, systematic, techniques, profiling, root, cause, analysis, efficiently, track, down, bugs |
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |
@@ -591,7 +595,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (103)
+## infrastructure (102)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -637,7 +641,6 @@ Triggers: "azure-storage-file-share", "Share... | azure, storage, file, share, p
 | `claude-d3js-skill` | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisati... | claude, d3js, skill | claude, d3js, skill, d3, viz, creating, interactive, data, visualisations, js, should, used |
 | `code-review-ai-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | code, ai | code, ai, review, powered, combining, automated, static, analysis, intelligent, recognition, devops, leverage |
 | `cost-optimization` | Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing... | cost, optimization | cost, optimization, optimize, cloud, costs, through, resource, rightsizing, tagging, reserved, instances, spending |
-| `custom/stack-estandar-sitoct` | Stack tecnológico estándar para todos los proyectos. Define las tecnologías, plataformas de deployment y arquitectura recomendada basada en las mejores práct... | custom/stack, estandar, sitoct | custom/stack, estandar, sitoct, stack, tecnol, gico, est, ndar, para, todos, los, proyectos |
 | `data-engineer` | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data pl... | data | data, engineer, scalable, pipelines, warehouses, real, time, streaming, architectures, implements, apache, spark |
 | `data-engineering-data-pipeline` | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing. | data, engineering, pipeline | data, engineering, pipeline, architecture, specializing, scalable, reliable, cost, effective, pipelines, batch, streaming |
 | `database-cloud-optimization-cost-optimize` | You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spendi... | database, cloud, optimization, cost, optimize | database, cloud, optimization, cost, optimize, specializing, reducing, infrastructure, expenses, while, maintaining, performance |
@@ -706,7 +709,7 @@ Triggers: "azure-storage-file-share", "Share... | azure, storage, file, share, p
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (126)
+## security (129)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -742,6 +745,7 @@ Triggers: "keyvault secrets rust", "SecretClient rust"... | azure, keyvault, sec
 | `code-reviewer` | Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities, performance optimization, and production reliability. Mas... | code | code, reviewer, elite, review, specializing, ai, powered, analysis, security, vulnerabilities, performance, optimization |
 | `codebase-cleanup-deps-audit` | You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for ... | codebase, cleanup, deps, audit | codebase, cleanup, deps, audit, dependency, security, specializing, vulnerability, scanning, license, compliance, supply |
 | `computer-use-agents` | Build AI agents that interact with computers like humans do - viewing screens, moving cursors, clicking buttons, and typing text. Covers Anthropic's Computer... | computer, use, agents | computer, use, agents, ai, interact, computers, like, humans, do, viewing, screens, moving |
+| `crypto-bd-agent` | Autonomous crypto business development patterns — multi-chain token discovery, 100-point scoring with wallet forensics, x402 micropayments, ERC-8004 on-chain... | crypto, business-development, token-scanning, x402, erc-8004, autonomous-agent, solana, ethereum, wallet-forensics | crypto, business-development, token-scanning, x402, erc-8004, autonomous-agent, solana, ethereum, wallet-forensics, bd, agent, autonomous |
 | `database-admin` | Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. Masters AWS/Azure/GCP database services, Infra... | database, admin | database, admin, administrator, specializing, cloud, databases, automation, reliability, engineering, masters, aws, azure |
 | `database-migration` | Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databas... | database, migration | database, migration, execute, migrations, orms, platforms, zero, downtime, data, transformation, rollback, procedures |
 | `database-migrations-sql-migrations` | SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, SQL Server | database, sql, migrations, postgresql, mysql, flyway, liquibase, alembic, zero-downtime | database, sql, migrations, postgresql, mysql, flyway, liquibase, alembic, zero-downtime, zero, downtime, server |
@@ -776,6 +780,8 @@ Triggers: "keyvault secrets rust", "SecretClient rust"... | azure, keyvault, sec
 | `k8s-manifest-generator` | Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when gen... | k8s, manifest, generator | k8s, manifest, generator, kubernetes, manifests, deployments, configmaps, secrets, following, security, standards, generating |
 | `k8s-security-policies` | Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clust... | k8s, security, policies | k8s, security, policies, kubernetes, including, networkpolicy, podsecuritypolicy, rbac, grade, securing, clusters, implementing |
 | `kubernetes-architect` | Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Mas... | kubernetes | kubernetes, architect, specializing, cloud, native, infrastructure, gitops, argocd, flux, enterprise, container, orchestration |
+| `laravel-expert` | Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and m... | laravel | laravel, senior, engineer, role, grade, maintainable, idiomatic, solutions, clean, architecture, security, performance |
+| `laravel-security-audit` | Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel sec... | laravel, security, audit | laravel, security, audit, auditor, applications, analyzes, code, vulnerabilities, misconfigurations, insecure, owasp, standards |
 | `legal-advisor` | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. Use ... | legal, advisor | legal, advisor, draft, privacy, policies, terms, disclaimers, notices, creates, gdpr, compliant, texts |
 | `linkerd-patterns` | Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies... | linkerd | linkerd, mesh, lightweight, security, deployments, setting, up, configuring, traffic, policies, implementing, zero |
 | `loki-mode` | Multi-agent autonomous startup system for Claude Code. Triggers on "Loki Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security... | loki, mode | loki, mode, multi, agent, autonomous, startup, claude, code, triggers, orchestrates, 100, specialized |
