@@ -7,6 +7,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.9.0] - 2026-02-20 - "Apple HIG & Quality Bar"
+
+> **Extensive Apple design guidelines and strict validation for the entire registry.**
+
+This release adds the official Apple Human Interface Guidelines skills suite, enforces strict agentskills-ref metadata validation across all skills, and addresses critical path resolution bugs in the CLI installer along with dangling link validation to prevent agent token waste.
+
+## 🚀 New Skills
+
+### 🍎 [apple-hig-skills](skills/hig-platforms/)
+
+**Comprehensive platform and UX guidelines for Apple ecosystems.**
+Official guidelines covering iOS, macOS, visionOS, watchOS, and tvOS natively formatted for AI consumption.
+
+- **Key Feature 1**: Deep dives into spatial layout, interactions, and modalities.
+- **Key Feature 2**: Component-level guidelines for status bars, dialogs, charts, and input mechanisms (Pencil, Digital Crown).
+
+> **Try it:** `Use @hig-platforms to review if our iPad app navigation follows standard iOS paradigms.`
+
+### 👁️ [manifest](skills/manifest/)
+
+**Observability plugin setup guide for AI agents.**
+Walks through a 6-step setup for the Manifest observability platform, including troubleshooting for common errors.
+
+- **Key Feature**: Complete configuration wizard from obtaining API keys to verifying traces.
+
+> **Try it:** `Use @manifest to add observability to our local python agent.`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 883 skills.
+- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/antigravity/skills` and added an explicit `--antigravity` flag (fixes #101).
+- **Validation**: Enforced strict folder-to-name matching and concise (<200 char) descriptions based on `agentskills-ref` (fixes #97).
+- **Validation**: Added build-time Markdown dangling link validation to `validate_skills.py` to prevent agents from hallucinating relative paths (fixes #102).
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@raintree-technology** for the Apple HIG Skills (PR #90)
+- **@sergeyklay** for the skill quality validations (PR #97)
+- **@SebConejo** for the manifest observability skill (PR #103)
+- **@community** for identifying installer and link bugs (Issues #101, #102)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
 ## [5.8.0] - 2026-02-19 - "Domain-Driven Design Suite"
 
 > **First full DDD skill suite: strategic design, context mapping, and tactical patterns for complex domains.**
