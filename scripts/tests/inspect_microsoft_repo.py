@@ -4,12 +4,14 @@ Inspect Microsoft Skills Repository Structure
 Shows the repository layout, skill locations, and what flat names would be generated.
 """
 
+import os
 import re
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
-MS_REPO = "https://github.com/microsoft/skills.git"
+MS_REPO = os.getenv("MS_REPO", "https://github.com/microsoft/skills.git")
 
 
 def extract_skill_name(skill_md_path: Path) -> str | None:
@@ -95,4 +97,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ Error: {e}")
         import traceback
+
         traceback.print_exc()
+        sys.exit(1)

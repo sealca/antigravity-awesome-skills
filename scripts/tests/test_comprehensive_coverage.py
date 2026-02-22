@@ -4,13 +4,15 @@ Test Script: Verify Microsoft Skills Sync Coverage and Flat Name Uniqueness
 Ensures all skills are captured and no directory name collisions exist.
 """
 
+import os
 import re
 import subprocess
+import sys
 import tempfile
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
-MS_REPO = "https://github.com/microsoft/skills.git"
+MS_REPO = os.getenv("MS_REPO", "https://github.com/microsoft/skills.git")
 
 
 def extract_skill_name(skill_md_path: Path) -> str | None:
@@ -186,4 +188,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ Error: {e}")
         import traceback
+
         traceback.print_exc()
+        sys.exit(1)
